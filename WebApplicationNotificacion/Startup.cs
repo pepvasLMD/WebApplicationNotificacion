@@ -33,6 +33,7 @@ namespace WebApplicationNotificacion
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApplicationNotificacion", Version = "v1" });
             });
 
+            services.AddSignalR();
 
         }
 
